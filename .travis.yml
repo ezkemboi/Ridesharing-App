@@ -1,0 +1,15 @@
+language: ruby
+
+services: 
+  - postgresql
+
+before_script: 
+  - psql -c 'create database ridesharingtest;' -U postgres
+  - gem install rails
+  - gem install bundler
+
+script:
+  - rails test
+
+after_success:
+  - coveralls --verbose
