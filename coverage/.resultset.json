@@ -1,0 +1,202 @@
+{
+  "MiniTest": {
+    "coverage": {
+      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/config/environment.rb": [
+        null,
+        1,
+        null,
+        null,
+        1
+      ],
+      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/config/environments/test.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/config/initializers/application_controller_renderer.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/config/initializers/assets.rb": [
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/config/initializers/backtrace_silencers.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/config/initializers/content_security_policy.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/config/initializers/cookies_serializer.rb": [
+        null,
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/config/initializers/filter_parameter_logging.rb": [
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/config/initializers/inflections.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/config/initializers/mime_types.rb": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/config/initializers/wrap_parameters.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/config/routes.rb": [
+        1,
+        1,
+        null,
+        1,
+        null
+      ],
+      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/app/controllers/welcome_controller.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/app/controllers/application_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/app/helpers/welcome_helper.rb": [
+        1,
+        null
+      ]
+    },
+    "timestamp": 1560599005
+  }
+}

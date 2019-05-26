@@ -1,0 +1,48 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+    background-color: #F5F5F5;
+}
+.homepage {
+    margin: 0 5%;
+}
+.welcome {
+    text-align: center;
+    margin: 0 0 2% 0;
+}
+.grid-master {
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+.grid-left {
+    background-color: rgb(230, 227, 227);
+    margin-right: 5%;
+}
+.grid-left a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    color: #2196f3;
+    border: solid 1px;
+}
+.grid-right {
+    background-color: #F5F5F5;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+}
+.grid-cards {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-gap: 2%;
+}
+.container {
+    padding: 2px 16px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
