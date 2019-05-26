@@ -1,0 +1,10 @@
+language: ruby
+
+before_script: 
+  - gem install bundler
+
+script:
+  - rails test
+
+after_success:
+  - coveralls --verbose

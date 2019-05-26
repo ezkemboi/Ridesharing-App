@@ -1,0 +1,25 @@
+{
+  "MiniTest": {
+    "coverage": {
+      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/app/controllers/welcome_controller.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/app/controllers/application_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/app/helpers/welcome_helper.rb": [
+        1,
+        null
+      ]
+    },
+    "timestamp": 1558868946
+  }
+}
