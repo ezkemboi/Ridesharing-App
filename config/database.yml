@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: ridesharing
+  database: ridesharingapp
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.

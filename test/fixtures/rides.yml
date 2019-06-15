@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ridetype: 1
+  origin: MyString
+  destination: MyString
+  takeoff: 2019-06-15 16:07:24
+  noofpeople: 1
+
+two:
+  ridetype: 1
+  origin: MyString
+  destination: MyString
+  takeoff: 2019-06-15 16:07:24
+  noofpeople: 1
