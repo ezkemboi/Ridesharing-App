@@ -1,3 +1,20 @@
 // Place all the styles related to the Rides controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.new-ride-page {
+    margin: 2% 10%;
+    border: 2px solid gray;
+    padding: 2%;
+    height: 100%;
+    & h1{
+        text-align: center;
+        color: #2196f3 !important;
+    }
+}
+.back-to-rides-button {
+    background-color: #2196f3;
+    padding: 6px;
+    margin: 5px;
+    color: white;
+}
+

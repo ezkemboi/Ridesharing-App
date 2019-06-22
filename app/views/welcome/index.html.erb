@@ -8,6 +8,9 @@
         <h1>Ridesharing Application</h1>
         <p>Welcome to Ridesharing, an home where Andelan can request for ride or offer ride to collegues</p>
       </div>
+      <div class="">
+        <%= link_to ' <button class="new-ride-button">Create New Ride</button>'.html_safe, new_ride_path %>
+      </div>
       <div class='grid-master'>
         <div class='grid-left'>
           <a href='google.com'>Ride Offers</a>
@@ -21,116 +24,18 @@
         </div>
         <div class='grid-right'>
           <div class="grid-cards">
-            <div class="card">
-              <div class="container">
-                <h4><b>Ride Offer</b></h4>
-                <p><b>Name: </b>Hillay man</p>
-                <p><b>Origin: </b> Mirema Drive</p>
-                <p><b>Destination: </b>Kasarani Equity</p>
-                <p><b>Take Off: </b>7:30Pm - 8:00 Pm</p>
-                <p><b>Offers: </b>2</p>
+            <% @rides.each do |ride| %>
+              <div class="card">
+                <div class="container">
+                  <h4><b>Ride: </b> <%=ride.ridetype.capitalize %></h4>
+                  <p><b>Name: </b>Hillay man</p>
+                  <p><b>Origin: </b> <%= ride.origin %></p>
+                  <p><b>Destination: </b><%= ride.destination %></p>
+                  <p><b>Take Off: </b><%= ride.takeoff.to_formatted_s(:rfc822) %></p>
+                  <p><b>Offers: </b><%= ride.noofpeople %></p>
+                </div>
               </div>
-            </div>
-            <div class="card">
-              <div class="container">
-                <h4><b>Ride Offer</b></h4>
-                <p><b>Name: </b>Hillay man</p>
-                <p><b>Origin: </b> Mirema Drive</p>
-                <p><b>Destination: </b>Kasarani Equity</p>
-                <p><b>Take Off: </b>7:30Pm - 8:00 Pm</p>
-                <p><b>Offers: </b>2</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="container">
-                <h4><b>Ride Offer</b></h4>
-                <p><b>Name: </b>Hillay man</p>
-                <p><b>Origin: </b> Mirema Drive</p>
-                <p><b>Destination: </b>Kasarani Equity</p>
-                <p><b>Take Off: </b>7:30Pm - 8:00 Pm</p>
-                <p><b>Offers: </b>2</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="container">
-                <h4><b>Ride Offer</b></h4>
-                <p><b>Name: </b>Hillay man</p>
-                <p><b>Origin: </b> Mirema Drive</p>
-                <p><b>Destination: </b>Kasarani Equity</p>
-                <p><b>Take Off: </b>7:30Pm - 8:00 Pm</p>
-                <p><b>Offers: </b>2</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="container">
-                <h4><b>Ride Offer</b></h4>
-                <p><b>Name: </b>Hillay man</p>
-                <p><b>Origin: </b> Mirema Drive</p>
-                <p><b>Destination: </b>Kasarani Equity</p>
-                <p><b>Take Off: </b>7:30Pm - 8:00 Pm</p>
-                <p><b>Offers: </b>2</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="container">
-                <h4><b>Ride Offer</b></h4>
-                <p><b>Name: </b>Hillay man</p>
-                <p><b>Origin: </b> Mirema Drive</p>
-                <p><b>Destination: </b>Kasarani Equity</p>
-                <p><b>Take Off: </b>7:30Pm - 8:00 Pm</p>
-                <p><b>Offers: </b>2</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="container">
-                <h4><b>Ride Offer</b></h4>
-                <p><b>Name: </b>Hillay man</p>
-                <p><b>Origin: </b> Mirema Drive</p>
-                <p><b>Destination: </b>Kasarani Equity</p>
-                <p><b>Take Off: </b>7:30Pm - 8:00 Pm</p>
-                <p><b>Offers: </b>2</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="container">
-                <h4><b>Ride Offer</b></h4>
-                <p><b>Name: </b>Hillay man</p>
-                <p><b>Origin: </b> Mirema Drive</p>
-                <p><b>Destination: </b>Kasarani Equity</p>
-                <p><b>Take Off: </b>7:30Pm - 8:00 Pm</p>
-                <p><b>Offers: </b>2</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="container">
-                <h4><b>Ride Offer</b></h4>
-                <p><b>Name: </b>Hillay man</p>
-                <p><b>Origin: </b> Mirema Drive</p>
-                <p><b>Destination: </b>Kasarani Equity</p>
-                <p><b>Take Off: </b>7:30Pm - 8:00 Pm</p>
-                <p><b>Offers: </b>2</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="container">
-                <h4><b>Ride Offer</b></h4>
-                <p><b>Name: </b>Hillay man</p>
-                <p><b>Origin: </b> Mirema Drive</p>
-                <p><b>Destination: </b>Kasarani Equity</p>
-                <p><b>Take Off: </b>7:30Pm - 8:00 Pm</p>
-                <p><b>Offers: </b>2</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="container">
-                <h4><b>Ride Offer</b></h4>
-                <p><b>Name: </b>Hillay man</p>
-                <p><b>Origin: </b> Mirema Drive</p>
-                <p><b>Destination: </b>Kasarani Equity</p>
-                <p><b>Take Off: </b>7:30Pm - 8:00 Pm</p>
-                <p><b>Offers: </b>2</p>
-              </div>
-            </div>
+            <% end %>
           </div>
         </div>
       </div>

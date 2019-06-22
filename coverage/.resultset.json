@@ -94,6 +94,34 @@
         1,
         null
       ],
+      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/app/controllers/welcome_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/app/controllers/application_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/app/helpers/rides_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/app/helpers/users_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/app/helpers/welcome_helper.rb": [
+        1,
+        null
+      ],
       "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/app/controllers/rides_controller.rb": [
         1,
         1,
@@ -168,26 +196,6 @@
         1,
         2,
         null,
-        null
-      ],
-      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/app/controllers/application_controller.rb": [
-        1,
-        null
-      ],
-      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/app/helpers/application_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/app/helpers/rides_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/app/helpers/users_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/app/helpers/welcome_helper.rb": [
-        1,
         null
       ],
       "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/app/controllers/users_controller.rb": [
@@ -265,14 +273,8 @@
         2,
         null,
         null
-      ],
-      "/Users/ezrqnkemboi/andela/restacking/Ridesharing-App/app/controllers/welcome_controller.rb": [
-        1,
-        1,
-        null,
-        null
       ]
     },
-    "timestamp": 1560604923
+    "timestamp": 1561210368
   }
 }
